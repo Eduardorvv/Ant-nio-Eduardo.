@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Antônio Eduardo - Visão de Futuro</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #f0db4f;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f0db4f;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .animate {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Antônio Eduardo - Liderança e Visão de Futuro</h1>
+    </header>
+
+    <nav>
+        <a href="#biografia">Biografia</a>
+        <a href="#visoes">Visões de Mundo</a>
+        <a href="#agenda">Agenda de Eventos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="biografia" class="animate">
+        <h2>Biografia</h2>
+        <p>Antônio Eduardo, com apenas 19 anos, já é uma força política emergente e promissora...</p>
+    </section>
+
+    <section id="visoes" class="animate">
+        <h2>Visões de Mundo</h2>
+        <p>Antônio Eduardo acredita que o Brasil necessita de uma liderança forte...</p>
+    </section>
+
+    <section id="agenda" class="animate">
+        <h2>Agenda de Eventos</h2>
+        <p>Em breve, eventos serão divulgados aqui.</p>
+    </section>
+
+    <section id="contato" class="animate">
+        <h2>Contato</h2>
+        <p>Email: contato@antonioeduardo.com<br>
+        Redes Sociais: <a href="https://www.instagram.com/eduardorvv">Instagram</a> | <a href="https://x.com/eduardorvv_?s=21&t=RLzPBezeayvToZC4EWzTPA">Twitter</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Antônio Eduardo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
